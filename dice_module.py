@@ -15,6 +15,9 @@ class Dice:
     @property
     def value(self):
         return self._value
+        """
+        salem ana comnt akher
+        """
 
 
 class DiceGame:
