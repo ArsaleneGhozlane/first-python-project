@@ -7,10 +7,17 @@ class Dice:
     def roll(self):
         self._value = random.randint(1, 6)
         return self._value
+    
+        """
+        salemm ana commentaire 
+        """
 
     @property
     def value(self):
         return self._value
+        """
+        salem ana comnt akher
+        """
 
 """ did nothing"""
 class DiceGame:
